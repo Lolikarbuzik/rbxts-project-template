@@ -37,10 +37,11 @@ export default class ZirconService implements OnInit {
 				.Build(),
 		);
 		Log.Info(
-			"Version {Version} build: {BuildDate} latest commit: {Commit}",
+			"Version {Version} build: {BuildDate} latest commit: {Commit}, {Full}",
 			$package.version,
 			$compileTime("ISO-8601"),
 			$git().Commit,
+			$git().CommitHash,
 		);
 	}
 }
