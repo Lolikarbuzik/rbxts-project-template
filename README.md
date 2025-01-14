@@ -7,3 +7,4 @@
 -   React
 -   Zircon console + Log (also roact for zircon)
 -   @rbxts/services
+-   rbxts-transform-debug (for debugging)

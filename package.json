@@ -1,14 +1,14 @@
 {
-  "name": "flamework-template",
+  "name": "rbxts-project-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Roblox-TS project template",
   "main": "index.js",
   "scripts": {
     "build": "rbxtsc",
     "watch": "rbxtsc -w"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lolikarbuzik",
   "license": "ISC",
   "devDependencies": {
     "@rbxts/compiler-types": "^2.3.0-types.1",
@@ -20,9 +20,9 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-roblox-ts": "^0.0.30",
     "prettier": "^2.3.2",
+    "rbxts-transform-debug": "^2.2.0",
     "rbxts-transformer-flamework": "^1.2.2",
-    "roblox-ts": "^2.3.0",
-    "typescript": "~5.2.2"
+    "roblox-ts": "^2.3.0"
   },
   "dependencies": {
     "@flamework/components": "^1.2.2",
